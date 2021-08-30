@@ -41,7 +41,7 @@ app.delete('/usuario', function (req, res) {
     res.send('delete usuario')
   })
  
-app.listen(PORT, () =>{
+app.listen(3000, () =>{
     console
     .log('Escuchando en el puerte 3000')
 })
